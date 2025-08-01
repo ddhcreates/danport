@@ -26,7 +26,7 @@ export default function Portfolio() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId: string) => {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
     setMobileMenuOpen(false);
   };
