@@ -35,7 +35,7 @@ export default function Portfolio() {
     {
       icon: <Brain className="w-8 h-8" />,
       title: "GPT Automations",
-      description: "Custom AI workflows that work while you sleep"
+      description: "Custom AI workflows that work while you're sleeping"
     },
     {
       icon: <BarChart3 className="w-8 h-8" />,
